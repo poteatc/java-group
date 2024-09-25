@@ -27,7 +27,7 @@ public class Game {
 
     private String getRandomWord() {
         List<String> list = new ArrayList<>();
-        File words = new File("./src/words.txt");
+        File words = new File("./Wordle/src/words.txt");
         try {
             Scanner scanner = new Scanner(words);
             while (scanner.hasNext()) {
